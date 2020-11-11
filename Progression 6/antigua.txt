@@ -1,0 +1,16 @@
+'iooAiuaaauaoiie'Write a function that takes 2 arguments - a file name and an int, x. The function should, using a while loop, return a string containing the first x vowels found in the file. You may assume the file is not overly large.
+
+Remember to have all the required files in the same directory as the python file.
+
+Your function should pass the doctests below:
+
+           
+def first_x_vowels(file_name, x):
+    """
+    >>> first_x_vowels('test.txt', 10)
+    'aouieieiie'
+    >>> first_x_vowels('russia.txt', 50)
+    'ioouiaoiieiaeeeeoeiaeioouiaeiiaoeEaeaaeioUieoeeaeo'
+    >>> first_x_vowels('antigua.txt', 15)
+    'iooAiuaaauaoiie'
+    """
